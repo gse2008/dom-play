@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+    color: white;
+    background: rgb(34, 158, 34);
+}
+h1{
+    text-decoration: underline overline;
+    color: goldenrod;
+    font-size: 400%;
+  }
+  div{
+    border: 20px solid goldenrod
+  }

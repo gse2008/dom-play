@@ -1,14 +1,8 @@
 <html>
     <head>
         <title>DOM Play</title>
+        <link rel="stylesheet" href="CSS/style.css">
     </head>
-    <style>
-        /*
-        #clickSpans span{
-            background-color:aqua;
-        }
-        */
-    </style>
     <body>
         <h1>The Wizard of Oz</h1>
         <div id="clickSpans">
@@ -51,10 +45,10 @@
                 for (const mySpan of spans){
 
                     if(mySpan.dataset.actor == myActor){//current actor, highlight
-                        mySpan.style.backgroundColor = 'yellow';
+                        mySpan.style.backgroundColor = 'goldenrod';
                         mySpan.style.fontWeight = 'bold';
                     }else{//no current actor, no highlight
-                        mySpan.style.backgroundColor = 'white';
+                        mySpan.style.backgroundColor = 'rgb(34, 158, 34)';
                         mySpan.style.fontWeight = 'normal';
                     }
                 
